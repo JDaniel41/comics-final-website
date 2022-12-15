@@ -1,55 +1,50 @@
 import React from "react";
 
-import adaine from "../assets/adaine.png";
-import fig from "../assets/fig.png";
-import goldenhoard from "../assets/goldenhoard.png";
-import CharacterBox from "./CharacterBox";
+import ericahenderson from "../assets/ericahenderson.jpeg";
+import karlkerschl from "../assets/karlkerschl.jpeg";
+import ledgerwood from "../assets/ledgerwood.jpeg";
+import ArtistBox from "./ArtistBox";
 
-export default function MeetTheCharacters() {
+import ledgerwood_sample from "../assets/ledgerwood_sample.png";
+
+export default function MeetTheArtists() {
     const characterInfo = [
         {
-            characterName: "Adaine",
+            characterName: "Erica Henderson",
             characterDescription:
                 "Adaine is a divination wizard and the youngest daughter of the elvish Angwyn Abernant, an ambassador of Fallinel. Her biggest weakness: panic attacks. ",
-            characterImg: adaine,
+            characterImg: ericahenderson,
         },
         {
-            characterName: "Fig",
+            characterName: "Karl Kerschl",
             characterDescription:
-                "Fig is Adaine’s best friend and half wood elf, half demon. ",
-            characterImg: fig,
+                "Fig is Adaine's best friend and half wood elf, half demon. ",
+            characterImg: karlkerschl,
         },
         {
-            characterName: "Goldenhoard",
+            characterName: "Mark Ledgerwood",
             characterDescription:
                 "Goldenrod is vice principal of Aguefort and the reason Adaine meets her friends: detention.",
-            characterImg: goldenhoard,
+            characterImg: ledgerwood,
+            artSample: ledgerwood,
         },
     ];
 
-    // let characterNames = [];
-    // let characterDescriptions = [];
-    // let characterImgs = [];
-
-    // for (let i = 0; i < characterInfo.length; i++) {
-    //     characterNames.push(characterInfo[i].characterName);
-    //     characterDescriptions.push(characterInfo[i].characterDescription);
-    //     characterImgs.push(characterInfo[i].characterImg);
-    // }
     return (
         <div className="bg-navbar p-5" id="characters">
             <h1 className="text-4xl font-bold text-center p-12">
-                Meet the Characters!
+                Meet the Artists!
             </h1>
             <div className="grid grid-cols-1 md:grid-cols-3">
                 {characterInfo.map((character) => {
                     return (
-                        <CharacterBox
+                        <ArtistBox
                             characterName={character.characterName}
                             characterImg={character.characterImg}
                             characterDescription={
                                 character.characterDescription
                             }
+                            artSample={character.artSample}
                         />
                     );
                 })}
