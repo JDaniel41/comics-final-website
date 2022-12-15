@@ -11,7 +11,11 @@ export default function Intro() {
             <div className="m-auto">
                 <h1 className="text-5xl text-center m-2">Summary</h1>
                 <h2 className="text-center m-2">
-                    This is where we'll put the summary of our story.
+                    Welcome to Elmville, home of the Aguefort Adventuring
+                    Academy! Our story takes place in this fantasy town full of
+                    wizards, demons, elves, and many more magical creatures.
+                    While this may seem odd, don't worry. It is reminiscent of a
+                    1980s America.
                 </h2>
             </div>
             <div className="m-auto">
