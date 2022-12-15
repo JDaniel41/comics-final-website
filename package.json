@@ -1,6 +1,7 @@
 {
   "name": "comics-final-website",
   "version": "0.1.0",
+  "homepage": "/comicsfinal",
   "private": true,
   "dependencies": {
     "@headlessui/react": "^1.7.4",
