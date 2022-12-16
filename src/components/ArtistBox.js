@@ -6,6 +6,7 @@ export default function ArtistBox({
     characterDescription,
     characterImg,
     artSample,
+    linkToWebsite,
 }) {
     const [show, setShow] = React.useState(false);
 
@@ -21,7 +22,11 @@ export default function ArtistBox({
             <img src={characterImg} alt={characterName} className="max-h-96" />
             <h1 className="text-2xl">{characterName}</h1>
             <p className="text-center">{characterDescription}</p>
-            <Button onClick={onClick} className="m-auto">
+            <Button onClick={onClick} className="m-auto" href={linkToWebsite}>
+                Check out my work!
+            </Button>
+
+            {/* <Button onClick={onClick} className="m-auto">
                 Check out my work!
             </Button>
             <Modal show={show} onClose={onClose}>
@@ -33,7 +38,7 @@ export default function ArtistBox({
                 <Modal.Footer>
                     <Button onClick={onClick}>I accept</Button>
                 </Modal.Footer>
-            </Modal>
+            </Modal> */}
         </div>
     );
 }

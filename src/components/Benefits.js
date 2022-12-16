@@ -5,13 +5,12 @@ import {
     ScaleIcon,
 } from "@heroicons/react/24/outline";
 
-import { Carousel } from "flowbite-react";
-
 import elmville_map from "../assets/elmville_map.png";
 import av_club_president from "../assets/av_club_president.png";
 import hudol_student from "../assets/hudol_student.png";
 import nightmare_king from "../assets/nightmare_king.png";
 import principal_aguefort from "../assets/principal_aguefort.png";
+import knb_bank from "../assets/knb_bank.jpg";
 
 const features = [
     {
@@ -40,14 +39,14 @@ const features = [
         description:
             "They may be the center of the scandal, but we don't judge you for working there. If you support us at this level, we'll give you a signed hardcover edition of our first issue!",
         icon: DevicePhoneMobileIcon,
-        image: nightmare_king,
+        image: knb_bank,
     },
     {
         name: "$75 - Nightmare King Cultise",
         description:
             "Y'know, maybe cults aren't that bad. After all, some of them can be fun! If you support us at this level, we'll add your own background character into the story!",
         icon: DevicePhoneMobileIcon,
-        image: av_club_president,
+        image: nightmare_king,
     },
     {
         name: "$100 - President of the AV Club",
@@ -85,7 +84,7 @@ export default function Example() {
                                 <div className="sm:min-w-0 sm:flex-1">
                                     <img
                                         src={feature.image}
-                                        className="max-h-48"
+                                        className="max-h-48 mx-auto"
                                         alt="..."
                                     />
                                     <p className="text-lg font-semibold leading-8 text-gray-900">

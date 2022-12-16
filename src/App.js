@@ -5,7 +5,7 @@ import Hero from "./components/Hero";
 import Summary from "./components/Summary";
 import Benefits from "./components/Benefits";
 import MeetTheCharacters from "./components/MeetTheCharacters";
-import TheWhy from "./components/TheWhy";
+// import TheWhy from "./components/TheWhy";
 import MeetTheArtists from "./components/MeetTheArtists";
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
             <MeetTheCharacters />
             <MeetTheArtists />
             <Benefits />
-            <TheWhy />
+            {/* <TheWhy /> */}
         </div>
     );
 }
