@@ -17,7 +17,11 @@ export default function Summary() {
                 Welcome to Elmville!
             </h1>
             <div className="grid grid-cols-1 md:grid-cols-2 items-center">
-                <img src={aguefort} alt="Aguefort" className="w-1/2 mx-auto" />
+                <img
+                    src={aguefort}
+                    alt="Aguefort"
+                    className="mx-auto min-h-80"
+                />
                 <div>
                     <h2 className="text-center mx-2">
                         Welcome to Elmville, home of the Aguefort Adventuring
@@ -25,7 +29,7 @@ export default function Summary() {
                         of wizards, demons, elves, and magical creatures while
                         also similar to a 1980s America. Our story follows
                         Adaine Abernant, a young divination wizard and daughter
-                        of Elvin Ambassador Angwyn Abernant. Adaine has lived
+                        of Elvish Ambassador Angwyn Abernant. Adaine has lived
                         her whole life in the shadow of her older sister Aelwyn.
                         After failing the entrance exam to the prestigious Hudol
                         Preparatory College due to a panic attack, Adaine is

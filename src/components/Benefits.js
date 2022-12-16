@@ -87,10 +87,10 @@ export default function Example() {
                                         className="max-h-48 mx-auto"
                                         alt="..."
                                     />
-                                    <p className="text-lg font-semibold leading-8 text-gray-900">
+                                    <p className="text-lg font-semibold leading-8 text-gray-900 text-center">
                                         {feature.name}
                                     </p>
-                                    <p className="mt-2 text-base leading-7 text-gray-600">
+                                    <p className="mt-2 text-base leading-7 text-gray-600 text-center">
                                         {feature.description}
                                     </p>
                                 </div>

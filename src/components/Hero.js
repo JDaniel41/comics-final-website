@@ -8,7 +8,7 @@ export default function Hero() {
                     Divination Dilemma
                 </h1>
                 <h2 className="text-xl md:text-6xl text-center m-2">
-                    By Christian and Jonathan!
+                    By Christian Blackburn and Jonathan Daniel!
                 </h2>
             </div>
         </div>
