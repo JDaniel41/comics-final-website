@@ -14,7 +14,7 @@ import knb_bank from "../assets/knb_bank.jpg";
 
 const features = [
     {
-        name: "$15 - Elmville Citizen!",
+        name: "$15 - Elmville Citizen",
         description:
             "Every citizen of Elmville needs to know how to get around, and if you support us at this level you'll receive a Kershl-drawn poster map of Elmville!",
         icon: GlobeAltIcon,

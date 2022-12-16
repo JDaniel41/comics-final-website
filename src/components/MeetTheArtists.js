@@ -5,8 +5,6 @@ import karlkerschl from "../assets/kerschl_example.png";
 import ledgerwood from "../assets/ledgerwood_example.png";
 import ArtistBox from "./ArtistBox";
 
-import ledgerwood_sample from "../assets/ledgerwood_sample.png";
-
 export default function MeetTheArtists() {
     const characterInfo = [
         {
@@ -44,7 +42,6 @@ export default function MeetTheArtists() {
                             characterDescription={
                                 character.characterDescription
                             }
-                            artSample={character.artSample}
                             linkToWebsite={character.linkToWebsite}
                         />
                     );

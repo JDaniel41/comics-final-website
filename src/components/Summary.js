@@ -2,6 +2,8 @@ import React from "react";
 import aguefort from "../assets/aguefort.png";
 import { Button } from "flowbite-react";
 
+import cover_letter from "../assets/cover_letter.pdf";
+
 export default function Summary() {
     /**
      * This will be a grid of 2 columns. The first column will have the header
@@ -45,23 +47,20 @@ export default function Summary() {
                         cliche), learn more about the power of friends and
                         support groups!
                     </h2>
-                    <div className="flex">
+                    <div className="grid my-2 grid-cols-1 sm:grid-cols-3">
                         <Button
-                            className="mx-auto"
+                            className="m-auto"
                             href="https://youtu.be/bUh5noBcyAA"
                         >
                             Check out our pitch video!
                         </Button>
                         <Button
-                            className="mx-auto"
+                            className="m-auto"
                             href="https://www.patreon.com/elmville"
                         >
                             Check out our story synposis!
                         </Button>
-                        <Button
-                            className="mx-auto"
-                            href="https://www.patreon.com/elmville"
-                        >
+                        <Button className="m-auto" href={cover_letter}>
                             Check out our cover letter!
                         </Button>
                     </div>
