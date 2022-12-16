@@ -18,7 +18,13 @@ export default function ArtistBox({
     };
     return (
         <div className="bg-navbar flex flex-col items-center m-4">
-            <img src={characterImg} alt={characterName} className="max-h-96" />
+            <div className="h-96 flex flex-vertical">
+                <img
+                    src={characterImg}
+                    alt={characterName}
+                    className="min-h-80 max-h-96 my-auto"
+                />
+            </div>
             <h1 className="text-2xl">{characterName}</h1>
             <p className="text-center">{characterDescription}</p>
             <Button onClick={onClick} className="m-auto" href={linkToWebsite}>

@@ -12,7 +12,7 @@ export default function Summary() {
      */
     return (
         <div className="bg-navbar" id="summary">
-            <h1 className="text-2xl md:text-5xl text-center">
+            <h1 className="text-2xl md:text-5xl text-center py-8 font-bold">
                 Welcome to Elmville!
             </h1>
             <div className="grid grid-cols-1 md:grid-cols-2 items-center">
