@@ -42,7 +42,7 @@ const features = [
         image: knb_bank,
     },
     {
-        name: "$75 - Nightmare King Cultise",
+        name: "$75 - Nightmare King Cultist",
         description:
             "Y'know, maybe cults aren't that bad. After all, some of them can be fun! If you support us at this level, we'll add your own background character into the story!",
         icon: DevicePhoneMobileIcon,

@@ -29,7 +29,7 @@ export default function MeetTheArtists() {
     ];
 
     return (
-        <div className="bg-navbar p-5" id="characters">
+        <div className="bg-navbar p-5" id="artists">
             <h1 className="text-4xl font-bold text-center p-12">
                 Meet the Artists!
             </h1>
